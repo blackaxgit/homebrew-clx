@@ -4,17 +4,17 @@
 class Clx < Formula
   desc "Intelligent command validation and context persistence for Claude Code"
   homepage "https://github.com/blackaxgit/clx"
-  version "0.6.1"
+  version "0.7.0"
   license "MPL-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/blackaxgit/clx/releases/download/v0.6.1/clx-aarch64-apple-darwin.tar.gz"
-      sha256 "702b01179c8a7e4ad37a4e537a522ee724440cb0962e2610443b93f9b8634b43"
+      url "https://github.com/blackaxgit/clx/releases/download/v0.7.0/clx-aarch64-apple-darwin.tar.gz"
+      sha256 "4422a81c8c3dd5d28385432e4b93f7f2746e7699647ca9ecdd8b166853d5f8d6"
     end
     on_intel do
-      url "https://github.com/blackaxgit/clx/releases/download/v0.6.1/clx-x86_64-apple-darwin.tar.gz"
-      sha256 "a4c23a8bd7ea339f99fb3089335ed47c3124a1cd7577221582ba876beaaa0b14"
+      url "https://github.com/blackaxgit/clx/releases/download/v0.7.0/clx-x86_64-apple-darwin.tar.gz"
+      sha256 "a5281dc490883870ab73ab045bfc300be55932261fe9807d5feba411a44ef9f6"
     end
   end
 
