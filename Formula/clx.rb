@@ -12,7 +12,7 @@ class Clx < Formula
   on_macos do
     on_arm do
       url "https://github.com/blackaxgit/clx/releases/download/v0.8.2/clx-aarch64-apple-darwin.tar.gz"
-      sha256 "485a8d0db9f06c150b87429e334e0e5a2116da2992d11e799434ed68982a204b"
+      sha256 "758e6e854fe091444171a03ebdc8b41f2b8468380278501bd2e7d954578b6e68"
     end
   end
 
