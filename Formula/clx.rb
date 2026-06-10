@@ -4,15 +4,15 @@
 class Clx < Formula
   desc "Intelligent command validation and context persistence for Claude Code"
   homepage "https://github.com/blackaxgit/clx"
-  version "0.11.1"
+  version "0.12.0"
   license "MPL-2.0"
 
   # Apple Silicon only. Intel macOS is unsupported from 0.8.0
   # (no prebuilt ONNX Runtime for the bge-reranker dependency).
   on_macos do
     on_arm do
-      url "https://github.com/blackaxgit/clx/releases/download/v0.11.1/clx-aarch64-apple-darwin.tar.gz"
-      sha256 "82b2e105fe26d99c557c63a0333ea449a0b6c900214da121d34963c37cbca493"
+      url "https://github.com/blackaxgit/clx/releases/download/v0.12.0/clx-aarch64-apple-darwin.tar.gz"
+      sha256 "c090d6b9b6a9d751dd4da4bca479e5a8be3e478f2fd433f83e941524469871c0"
     end
   end
 
